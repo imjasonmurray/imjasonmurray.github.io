@@ -1,0 +1,104 @@
+/*banner*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', monospace;
+    font-weight: bold;
+    color: #2f527b;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #2f527b;
+    margin: 1rem 0;
+    height: 0;
+}
+
+
+p, ul {
+    font-family: 'Lora', monospace;
+}
+
+i {
+    margin: 10px;
+    color: black;
+}
+
+body {
+    margin: auto 15%;
+    font-size: 18px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tittle-about {
+    padding-bottom: 40px;
+}
+
+.me-image {
+    width: 70%;
+    margin-top: -20px;
+}
+
+.banner {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+
+.high {
+    background-color: rgba(255, 196, 0, 0.498);
+    font-weight: bold;
+}
+
+/* mobile */
+.skill-icon{
+    font-size: 32px;
+    color: #2f527b;
+}
+
+.carousel-control-next {
+    filter: invert(100%);
+}
+
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.app-image {
+    height: 600px;
+    object-fit: contain;
+    opacity: 0;
+    animation: fadeInAnimation ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* web */
+
+.video-desktop {
+    width: 80%;
+}
+
+/* footer */
+
+.footer-img {
+    width: 250px;
+}
