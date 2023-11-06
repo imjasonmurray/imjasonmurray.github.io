@@ -102,3 +102,19 @@ body {
 .footer-img {
     width: 250px;
 }
+
+.skill-box{
+    border-radius: 15px;
+    transition-duration: 0.5s;
+    user-select: none;
+}
+.skill-box:hover{
+    border-radius: 15px;
+    background-color: #eaeef2;
+    transition-duration: 0.5s;
+    color: #2f527b;
+}
+
+.custom-progress-bar{
+    background-color: #2f527b;
+}
